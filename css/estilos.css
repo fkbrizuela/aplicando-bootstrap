@@ -1,7 +1,7 @@
 
 
 body{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 /* Eventos */
@@ -61,6 +61,17 @@ body{
     }
 
 }
+
+/* Footer */
+
+footer{
+    background-color: #0b476f;
+    background-image: linear-gradient(180deg, #0b476f 0%, #041825 100%);  
+}
+
+/* footer a {
+    color: #fff;
+} */
 
 /*CELULAR*/
 @media (min-width: 320px) and (max-width: 576px){ 
