@@ -1,0 +1,71 @@
+
+
+/* .ancho_carousel{
+    width: 80vw;
+}
+ */
+/* Eventos */
+
+.container{
+/*     margin:1rem ; */
+}
+
+.evento__uno{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../recursos/acuaridas.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
+
+.evento__dos{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../recursos/eclipse_lunar.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
+
+.evento__tres{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../recursos/luna_llena-2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
+
+.evento__tituloSecundario{
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    width: 100%;
+    font-size: 0.8em;
+}
+
+.col p{
+    border-top: 1px solid;
+}
+
+
+
+/*CELULAR*/
+@media (min-width: 320px) and (max-width: 540px){ 
+
+    .evento__fila{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        height: 300px;
+    }
+
+    .evento__uno{
+        height: 300px;
+    }
+}
